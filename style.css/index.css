@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header-bg{
+   background-color: #5FA232; 
+}
+
+.register-text a {
+    text-decoration: none;
+}
+
+ .login-text:hover{
+background-color: #50882A;
+padding: 14px 12px;
+transition: 0.8s;
+
+} 
+
+.top-icons .icon{
+    background-color: #AFD199;
+    
+} 
+
+.top-icons .icon:hover{
+    background-color: #FFFFFF;
+    transition: 0.7s;
+}
+
+/* Nabar styling */
+
+
+.nav-links a:hover{
+    border-bottom: 2px solid #5FA232;
+
+}
+
+/* 
+#header-style{
+    margin: 0% 10%;
+} */
+
+
+.bg-image{
+    background-image: url(../images/bg-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: auto;
+} 
+
+
+#hero-heading{
+    margin-top: 10%;
+}
+
+#organic{
+    color: #FF6924;
+}
+  
+
+.btns button{
+background-color: #FF6924;
+border: none;
+}
+
+.btns button:hover{
+background-color: #5FA232;
+transition: 0.7s;
+}
+
+.btns .about-btn{
+    background: none;
+    border: 2px solid #FF6924;
+}
+ 
+
+
