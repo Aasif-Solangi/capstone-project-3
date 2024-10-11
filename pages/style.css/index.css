@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  #header-bg {
+    background-color: #5fa232;
+  }
+  
+  .register-text a {
+    text-decoration: none;
+  }
+  
+  .login-text:hover {
+    background-color: #50882a;
+    padding: 14px 12px;
+    transition: 0.8s;
+  }
+  
+  .top-icons .icon {
+    background-color: #afd199;
+  }
+  
+  .top-icons .icon:hover {
+    background-color: #ffffff;
+    transition: 0.7s;
+  }
+  
+  /* Nabar styling */
+  
+  .hero-logo{
+    width: 12%;
+  }
+  
+  .nav-links a:hover {
+    border-bottom: 2px solid #5fa232;
+  }
+  
+  /* 
+  #header-style{
+      margin: 0% 10%;
+  } */
+  
+  .bg-image {
+    background-image: url(../images/bg-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: auto;
+  }
+  
+  #hero-heading {
+    margin-top: 10%;
+  }
+  
+  #organic {
+    color: #ff6924;
+  }
+  
+  .btns button {
+    background-color: #ff6924;
+    border: none;
+  }
+  
+  .btns button:hover {
+    background-color: #5fa232;
+    transition: 0.7s;
+  }
+  
+  .btns .about-btn {
+    background: none;
+    border: 2px solid #ff6924;
+  }
+  
+
+  /* cards section */
+
+.bg-img-2{
+  background-image: url(../images/bg-image-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: auto;
+}
+
+
+  .card-img-top {
+    width: 100px;
+    margin: 20px auto;
+}
