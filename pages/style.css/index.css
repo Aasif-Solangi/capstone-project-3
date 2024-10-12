@@ -146,3 +146,42 @@ color: var(--secondary-color);
   transition: transform 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
 }
+
+/* bg-image-3 */
+
+
+.bg-image-3 {       
+  background-image: url(../images/bg-image-3.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  height: 40vh; 
+  width: 100%; 
+}
+
+.organic-heading {
+  margin-top: 7%;
+}
+
+.organic-heading span {
+  color: #9F4921;
+}
+
+.organic-heading button {
+  background-color: #5FA232;
+}
+
+/* Products Buttons */
+
+.buttons button{
+  background: none;
+}
+.buttons button.btn{
+  background-color: #5FA232;
+}
+
+.buttons button:hover{
+  background-color:#5FA232 ;
+  color: #fff;
+}
+
+
