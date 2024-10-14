@@ -1,97 +1,92 @@
 * {
-    margin: 0%;
-    padding: 0%;
-  }
-
-  :root {
-    --primary-color: #FF6924;
-    --secondary-color: #010148;
-    --text-color: #808080;
-    --background-color: #FF8D00;
-  }
-  #header-bg {
-    background-color: #5fa232;
-  }
-  
-  .login-text:hover {
-    background-color: #50882a;
-    padding: 14px 12px;
-    transition: 0.8s;
-  }
-  
-  .top-icons .icon {
-    background-color: #afd199;
-  }
-  
-  .top-icons .icon:hover {
-    background-color: #ffffff;
-    transition: 0.7s;
-  }
-  
-  /* Navbar styling */
-  
-  .hero-logo{
-    width: 12%;
-  }
-  
-  .nav-links a:hover {
-    border-bottom: 2px solid #5fa232;
-  }
-  
-  
-  .header-style{
-      margin: 0% 10%;
-  } 
-  
-  .bg-image {
-    background-image: url(../images/bg-image-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: auto;
-  }
-  
-  #hero-heading {
-    margin-top: 10%;
-  }
-  
-  #organic {
-    color: #ff6924;
-  }
-  
-  .btns button {
-    background-color: #ff6924;
-    border: none;
-  }
-  
-  .btns button:hover {
-    background-color: #5fa232;
-    transition: 0.7s;
-  }
-  
-  .btns .about-btn {
-    background: none;
-    border: 2px solid #ff6924;
-  }
-  
-
-  /*first cards section */
-
-.top-heading h1 span{
-color: var(--primary-color);
+  margin: 0%;
+  padding: 0%;
 }
-.top-heading p{
+
+:root {
+  --primary-color: #ff6924;
+  --secondary-color: #010148;
+  --text-color: #808080;
+  --background-color: #ff8d00;
+}
+#header-bg {
+  background-color: #5fa232;
+}
+
+.login-text:hover {
+  background-color: #50882a;
+  padding: 14px 12px;
+  transition: 0.8s;
+}
+
+.top-icons .icon {
+  background-color: #afd199;
+}
+
+.top-icons .icon:hover {
+  background-color: #ffffff;
+  transition: 0.7s;
+}
+
+/* Navbar styling */
+
+.hero-logo {
+  width: 12%;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #5fa232;
+}
+
+.header-style {
+  margin: 0% 10%;
+}
+
+.bg-image {
+  background-image: url(../images/bg-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: auto;
+}
+
+#hero-heading {
+  margin-top: 10%;
+}
+
+#organic {
+  color: #ff6924;
+}
+
+.btns button {
+  background-color: #ff6924;
+  border: none;
+}
+
+.btns button:hover {
+  background-color: #5fa232;
+  transition: 0.7s;
+}
+
+.btns .about-btn {
+  background: none;
+  border: 2px solid #ff6924;
+}
+
+/*first cards section */
+
+.top-heading h1 span {
+  color: var(--primary-color);
+}
+.top-heading p {
   color: var(--text-color);
 }
 
-.top-heading h1{
+.top-heading h1 {
   color: var(--secondary-color);
-
-  
 }
 
-
-.bg-img-2{
+.bg-img-2 {
   background-image: url(../images/bg-image-2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,65 +94,63 @@ color: var(--primary-color);
   width: auto;
 }
 
-  .card-img-top {
-    width: 100px;
-    margin: 20px auto;
+.card-img-top {
+  width: 100px;
+  margin: 20px auto;
 }
 
-.card-title{
+.card-title {
   color: var(--secondary-color);
 }
 
-.first-cards p{
-color: var(--text-color);
+.first-cards p {
+  color: var(--text-color);
 }
 
-
-.card-btn{
+.card-btn {
   background: none;
   border: 2px solid var(--background-color);
   color: var(--secondary-color);
 }
 
-.card-btn:hover{
+.card-btn:hover {
   background-color: var(--primary-color);
   color: #fff;
-  transform: scale(1.05); 
+  transform: scale(1.05);
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .first-cards:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   transition: transform 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
 }
 
-.erro{
+.erro {
   border: 2px solid var(--primary-color);
 }
 
 /* fruit-section */
 
-.fruit-section h5{
-color: var(--secondary-color);
+.fruit-section h5 {
+  color: var(--secondary-color);
 }
 
-.fruit-section:hover{
+.fruit-section:hover {
   border: 2px solid var(--primary-color);
-  transform: scale(1.05); 
+  transform: scale(1.05);
   transition: transform 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
 }
 
 /* bg-image-2  */
 
-
-.bg-image-3 {       
+.bg-image-3 {
   background-image: url(../images/bg-image-2.jpg);
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  height: 40vh; 
-  width: 100%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
 }
 
 .organic-heading {
@@ -165,28 +158,26 @@ color: var(--secondary-color);
 }
 
 .organic-heading span {
-  color: #9F4921;
+  color: #9f4921;
 }
 
 .organic-heading button {
-  background-color: #5FA232;
+  background-color: #5fa232;
 }
 
 /* Products Buttons */
 
-.buttons button{
+.buttons button {
   background: none;
 }
-.buttons button.btn{
-  background-color: #5FA232;
+.buttons button.btn {
+  background-color: #5fa232;
 }
 
-.buttons button:hover{
-  background-color:#5FA232 ;
+.buttons button:hover {
+  background-color: #5fa232;
   color: #fff;
 }
-
-
 
 /* cards */
 
@@ -209,12 +200,11 @@ color: var(--secondary-color);
   color: #01145d;
 }
 
-
 .card {
   transition: transform 0.3s ease;
 }
 
-.card-footer button :hover{
+.card-footer button :hover {
   transform: translateY(-5px);
 }
 .card:hover {
@@ -226,51 +216,49 @@ color: var(--secondary-color);
 }
 .card:hover .add-to-cart {
   display: inline-block;
-
 }
 
 /* background image 3*/
 
-.bg-amazing{
+.bg-amazing {
   background-image: url(../images/bg-image-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 70vh;
 }
 
-.deals-text{
- margin-top: 120px;
+.deals-text {
+  margin-top: 120px;
 }
 
-.deals-text h1 span{
+.deals-text h1 span {
   color: var(--primary-color);
 }
 
-.deals-text button{
+.deals-text button {
   background-color: var(--primary-color);
-  border: 3px dashed #5D5F61;
+  border: 3px dashed #5d5f61;
 }
 
 /* background-img-4 */
 
-
-.background-img-4{
-  background-image: url(../images/background-image-4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 70vh;
-  background-color: #F4F4F5;
+.background-img-4 {
+  background-image: url(../images/background-image-4.png); /* Ensure the path is correct */
+  background-size: cover; /* Cover the entire div */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 70vh; /* Set the height */
+  background-color: #f4f4f5; /* Fallback color */
 }
 
-.ceo-name{
+.ceo-name {
   color: var(--secondary-color);
 }
 
-.span-text{
+.span-text {
   color: var(--primary-color);
 }
 
-.small-icon{
-  margin-left: 250px;
+.small-icon {
+  margin-left: 240px;
   color: var(--primary-color);
 }
