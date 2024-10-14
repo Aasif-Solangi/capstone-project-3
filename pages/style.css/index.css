@@ -86,6 +86,8 @@ color: var(--primary-color);
 
 .top-heading h1{
   color: var(--secondary-color);
+
+  
 }
 
 
@@ -151,7 +153,7 @@ color: var(--secondary-color);
 
 
 .bg-image-3 {       
-  background-image: url(../images/bg-image-3.jpg);
+  background-image: url(../images/bg-image-2.jpg);
   background-size: cover; 
   background-repeat: no-repeat; 
   height: 40vh; 
@@ -159,7 +161,7 @@ color: var(--secondary-color);
 }
 
 .organic-heading {
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .organic-heading span {
@@ -184,4 +186,68 @@ color: var(--secondary-color);
   color: #fff;
 }
 
+
+
+/* cards */
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.old-price {
+  text-decoration: line-through;
+  color: red;
+}
+.new-price {
+  color: orange;
+  font-weight: bold;
+}
+.product-title {
+  font-weight: bold;
+  color: #01145d;
+}
+
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card-footer button :hover{
+  transform: translateY(-5px);
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.add-to-cart {
+  display: none;
+}
+.card:hover .add-to-cart {
+  display: inline-block;
+
+}
+
+/* background image */
+
+.bg-amazing{
+  background-image: url(../images/bg-image-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+.deals-text{
+ margin-top: 120px;
+}
+
+.deals-text h1 span{
+  color: var(--primary-color);
+}
+
+.deals-text button{
+  background-color: var(--primary-color);
+  border: 3px dashed #5D5F61;
+}
 
