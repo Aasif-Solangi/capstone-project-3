@@ -149,7 +149,7 @@ color: var(--secondary-color);
   cursor: pointer;
 }
 
-/* bg-image-3 */
+/* bg-image-2  */
 
 
 .bg-image-3 {       
@@ -229,7 +229,7 @@ color: var(--secondary-color);
 
 }
 
-/* background image */
+/* background image 3*/
 
 .bg-amazing{
   background-image: url(../images/bg-image-3.jpg);
@@ -251,3 +251,26 @@ color: var(--secondary-color);
   border: 3px dashed #5D5F61;
 }
 
+/* background-img-4 */
+
+
+.background-img-4{
+  background-image: url(../images/background-image-4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-color: #F4F4F5;
+}
+
+.ceo-name{
+  color: var(--secondary-color);
+}
+
+.span-text{
+  color: var(--primary-color);
+}
+
+.small-icon{
+  margin-left: 250px;
+  color: var(--primary-color);
+}
