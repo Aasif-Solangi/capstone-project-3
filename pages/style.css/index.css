@@ -262,3 +262,39 @@
   margin-left: 240px;
   color: var(--primary-color);
 }
+
+
+
+/* last cards section */
+
+.latest-cards .card-img {
+  height: 250px; 
+  object-fit: cover; 
+}
+.latest-cards p {
+  font-size: 0.9rem;
+}
+.latest-cards h5 {
+  font-size: 1.1rem;
+}
+.btn-custom {
+  border: 2px solid #198754;
+  color: #198754;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+
+/* Footer Section */
+
+.bg-image-footer{
+  background-image: url(../images/bg-footer\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
