@@ -9,6 +9,7 @@
   --text-color: #808080;
   --background-color: #ff8d00;
 }
+
 #header-bg {
   background-color: #5fa232;
 }
@@ -29,15 +30,6 @@
 }
 
 /* Navbar styling */
-
-.hero-logo {
-  width: 12%;
-}
-
-.nav-links a:hover {
-  border-bottom: 2px solid #5fa232;
-}
-
 .header-style {
   margin: 0% 10%;
 }
@@ -45,9 +37,7 @@
 .bg-image {
   background-image: url(../images/bg-image-1.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   height: 90vh;
-  width: auto;
 }
 
 #hero-heading {
@@ -60,7 +50,6 @@
 
 .btns button {
   background-color: #ff6924;
-  border: none;
 }
 
 .btns button:hover {
@@ -74,7 +63,6 @@
 }
 
 /*first cards section */
-
 .top-heading h1 span {
   color: var(--primary-color);
 }
@@ -86,44 +74,49 @@
   color: var(--secondary-color);
 }
 
+/* second cards */
+.card-img-bg {
+  background-color: #FDEEE7;
+}
+
+.cards-styling h5 {
+  color: var(--secondary-color);
+}
+
+.cards-styling p {
+  color: var(--primary-color);
+}
+
+.cards-styling button {
+  background-color: var(--background-color);
+}
+
+.cards-styling button:hover {
+  background-color: var(--background-color); 
+}
+
+.new-price {
+  color: var(--secondary-color);
+}
+
 .bg-img-2 {
   background-image: url(../images/bg-image-2.png);
   background-size: cover;
-  background-repeat: no-repeat;
   height: 80vh;
-  width: auto;
-}
-
-.card-img-top {
-  width: 100px;
-  margin: 20px auto;
 }
 
 .card-title {
   color: var(--secondary-color);
 }
 
-.first-cards p {
+.card-text {
   color: var(--text-color);
 }
 
 .card-btn {
   background: none;
-  border: 2px solid var(--background-color);
+  border-color: var(--background-color);
   color: var(--secondary-color);
-}
-
-.card-btn:hover {
-  background-color: var(--primary-color);
-  color: #fff;
-  transform: scale(1.05);
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.first-cards:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  cursor: pointer;
 }
 
 .erro {
@@ -131,30 +124,18 @@
 }
 
 /* fruit-section */
-
 .fruit-section h5 {
   color: var(--secondary-color);
 }
 
-.fruit-section:hover {
-  border: 2px solid var(--primary-color);
-  transform: scale(1.05);
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  cursor: pointer;
-}
-
 /* bg-image-2  */
-
 .bg-image-3 {
   background-image: url(../images/bg-image-2.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 40vh;
-  width: 100%;
 }
 
 .organic-heading {
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 .organic-heading span {
@@ -166,7 +147,6 @@
 }
 
 /* Products Buttons */
-
 .buttons button {
   background: none;
 }
@@ -176,59 +156,17 @@
 
 .buttons button:hover {
   background-color: #5fa232;
-  color: #fff;
-}
-
-/* cards */
-
-.card {
-  transition: transform 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-10px);
-}
-.old-price {
-  text-decoration: line-through;
-  color: red;
-}
-.new-price {
-  color: orange;
-  font-weight: bold;
-}
-.product-title {
-  font-weight: bold;
-  color: #01145d;
-}
-
-.card {
-  transition: transform 0.3s ease;
-}
-
-.card-footer button :hover {
-  transform: translateY(-5px);
-}
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.add-to-cart {
-  display: none;
-}
-.card:hover .add-to-cart {
-  display: inline-block;
 }
 
 /* background image 3*/
-
 .bg-amazing {
   background-image: url(../images/bg-image-3.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   height: 70vh;
 }
 
 .deals-text {
-  margin-top: 120px;
+  margin-top: 200px;
 }
 
 .deals-text h1 span {
@@ -237,19 +175,17 @@
 
 .deals-text button {
   background-color: var(--primary-color);
-  border: 3px dashed #5d5f61;
 }
 
 /* background-img-4 */
-
 .background-img-4 {
-  background-image: url(../images/background-image-4.png); /* Ensure the path is correct */
-  background-size: cover; /* Cover the entire div */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  height: 70vh; /* Set the height */
-  background-color: #f4f4f5; /* Fallback color */
+  background-image: url(../images/background-image-4.png); 
+  background-size: cover;
+  height: 70vh; 
+  background-color: #f4f4f5; 
 }
 
+/* second last cards */
 .ceo-name {
   color: var(--secondary-color);
 }
@@ -263,38 +199,16 @@
   color: var(--primary-color);
 }
 
-
-
-/* last cards section */
-
-.latest-cards .card-img {
-  height: 250px; 
-  object-fit: cover; 
-}
-.latest-cards p {
-  font-size: 0.9rem;
-}
-.latest-cards h5 {
-  font-size: 1.1rem;
-}
-.btn-custom {
-  border: 2px solid #198754;
-  color: #198754;
-  background-color: transparent;
-  padding: 0.5rem 1.5rem;
-  transition: all 0.3s ease;
-}
-.btn-custom:hover {
-  background-color: #198754;
-  color: #fff;
-}
-
-
 /* Footer Section */
-
 .bg-image-footer{
   background-image: url(../images/bg-footer\ \(1\).jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 40vh;
 }
+
+.copy-right p{
+color: var(--secondary-color);
+}
+
+.copy-right span{
+  color: var(--primary-color);
+  }
