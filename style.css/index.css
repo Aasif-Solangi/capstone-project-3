@@ -36,7 +36,7 @@
 
 .bg-image {
   background-image: url(../images/bg-image-1.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   height: 90vh;
 }
 
@@ -76,7 +76,7 @@
 
 /* second cards */
 .card-img-bg {
-  background-color: #FDEEE7;
+  background-color: #fdeee7;
 }
 
 .cards-styling h5 {
@@ -92,7 +92,7 @@
 }
 
 .cards-styling button:hover {
-  background-color: var(--background-color); 
+  background-color: var(--background-color);
 }
 
 .new-price {
@@ -101,7 +101,7 @@
 
 .bg-img-2 {
   background-image: url(../images/bg-image-2.png);
-  background-size: cover;
+  /* background-size: cover; */
   height: 80vh;
 }
 
@@ -131,11 +131,11 @@
 /* bg-image-2  */
 .bg-image-3 {
   background-image: url(../images/bg-image-2.jpg);
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .organic-heading {
-  margin-top: 6%;
+  margin-top: 3%;
 }
 
 .organic-heading span {
@@ -161,7 +161,7 @@
 /* background image 3*/
 .bg-amazing {
   background-image: url(../images/bg-image-3.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   height: 70vh;
 }
 
@@ -179,10 +179,10 @@
 
 /* background-img-4 */
 .background-img-4 {
-  background-image: url(../images/background-image-4.png); 
-  background-size: cover;
-  height: 70vh; 
-  background-color: #f4f4f5; 
+  background-image: url(../images/background-image-4.png);
+  /* background-size: cover; */
+  height: 70vh;
+  background-color: #f4f4f5;
 }
 
 /* second last cards */
@@ -200,15 +200,15 @@
 }
 
 /* Footer Section */
-.bg-image-footer{
+.bg-image-footer {
   background-image: url(../images/bg-footer\ \(1\).jpg);
-  background-size: cover;
+  /* background-size: cover; */
 }
 
-.copy-right p{
-color: var(--secondary-color);
+.copy-right p {
+  color: var(--secondary-color);
 }
 
-.copy-right span{
+.copy-right span {
   color: var(--primary-color);
-  }
+}

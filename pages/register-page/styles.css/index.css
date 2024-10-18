@@ -1,0 +1,38 @@
+.bg-img {
+  background-image: url(../../../images/signup-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.header {
+  background-color: #76a713;
+}
+
+/* bg-footer */
+.bg-footer-2 {
+  background-image: url(../../../images/bg-footer-top.png);
+  /* background-size: cover; */
+  height: 60vh;
+}
+
+.bg-footer {
+  background-image: url(../../../images/bg-mailchimp.jpg);
+  /* background-size: cover; */
+  height: 20vh;
+  margin: 80px 380px 0px 380px;
+  border-radius: 90px;
+}
+
+.input-text input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.input-text .input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+}
