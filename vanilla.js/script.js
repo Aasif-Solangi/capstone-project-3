@@ -1,24 +1,25 @@
 let cart = [];
+let totalPrice = 0;
 
 function updateCartDisplay() {
     const cartItemsDiv = document.getElementById('cartItems');
-    cartItemsDiv.innerHTML = '';
+    cartItemsDiv.innerHTML = ''; // Clear the cart display
 
     if (cart.length === 0) {
         cartItemsDiv.innerHTML = '<p>Your cart is empty.</p>';
+        document.getElementById('totalPrices').innerText = '$0.00'; // Clear total price
         return;
     }
-
-    
 
     cart.forEach((item, index) => {
         cartItemsDiv.innerHTML += `
             <div class="card mb-3 p-3 shadow-sm">
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex">
                     <img src="${item.img}" alt="${item.name}" style="width: 90px; height: 90px; object-fit: cover;" class="me-3 rounded">
                     <div class="flex-grow-1">
                         <h5 class="mb-1">${item.name}</h5>
                         <p class="text-muted mb-0">$${item.price} x ${item.quantity}</p>
+                        <button class="btn btn-sm btn-danger mt-2" onclick="removeItem(${index})">Remove</button>
                     </div>
                     <div class="d-flex align-items-center">
                         <button class="btn btn-sm btn-outline-danger me-2" onclick="updateQuantity(${index}, -1)">-</button>
@@ -29,11 +30,12 @@ function updateCartDisplay() {
             </div>
         `;
     });
-    
-    updateTotalPrice(); // Ensure total price updates
+
+    updateTotalPrice(); 
+    updateCartQuantityBadge(); 
 }
 
-document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', function () {
         const productName = this.getAttribute('data-name');
         const productPrice = parseFloat(this.getAttribute('data-price'));
@@ -42,7 +44,7 @@ document.querySelectorAll('.add-to-cart-btn').forEach(button => {
         const listitem = cart.find(item => item.name === productName);
 
         if (listitem) {
-            listitem.quantity += 1;
+            listitem.quantity += 1; 
         } else {
             cart.push({
                 name: productName,
@@ -52,8 +54,7 @@ document.querySelectorAll('.add-to-cart-btn').forEach(button => {
             });
         }
 
-        updateCartDisplay();
-        updateCartQuantityBadge(); // Update badge for total items in cart
+        updateCartDisplay(); 
     });
 });
 
@@ -61,20 +62,31 @@ function updateQuantity(index, change) {
     cart[index].quantity += change;
 
     if (cart[index].quantity <= 0) {
-        cart.splice(index, 1);
+        cart.splice(index, 1); 
     }
-    updateCartDisplay();
-    updateCartQuantityBadge(); // Update badge for total items in cart
+
+    updateCartDisplay(); 
 }
+
+
+function removeItem(index) {
+    cart.splice(index, 1);
+    updateCartDisplay();    
+}
+
 
 function updateCartQuantityBadge() {
     const cartQuantityBadge = document.getElementById('cartQuantityBadge');
     const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
-    cartQuantityBadge.innerText = totalItems;
+    cartQuantityBadge.innerText = totalItems; 
 }
 
 function updateTotalPrice() {
     const totalPriceElement = document.getElementById('totalPrice');
+    const totalPricesFooter = document.getElementById('totalPrices');
     const totalPrice = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0).toFixed(2);
-    // totalPriceElement.innerText = $${totalPrice};
+
+    
+    totalPriceElement.innerText = `$${totalPrice}`;
+    totalPricesFooter.innerText = `$${totalPrice}`;
 }

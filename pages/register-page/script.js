@@ -1,29 +1,27 @@
-document.getElementById('accountForm').addEventListener('submit', function (event) {
-    event.preventDefault(); 
-  
-    const username = document.getElementById('username').value;
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-    const confirmPassword = document.getElementById('confirmPassword').value;
+document.getElementById('accountForm').addEventListener('submit', function(e) {
+    e.preventDefault();
   
    
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var confirmPassword = document.getElementById('confirmPassword').value;
+  
+  
     if (password !== confirmPassword) {
-      alert('Passwords do not match!');
-      return;
+        alert('Passwords do not match!');
+        return;
     }
   
-    
-    localStorage.setItem('username', username);
-    localStorage.setItem('email', email);
-    localStorage.setItem('password', password);
   
-   
-    const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+    localStorage.setItem('userEmail', email);
+    localStorage.setItem('userPassword', password);
+  
+  // modal 
+    var successModal = new bootstrap.Modal(document.getElementById('successModal'));
     successModal.show();
   
     
-    setTimeout(function () {
-      window.location.href = '../login-page/login.html';
-    },2000);
+    setTimeout(function() {
+        window.location.href = '../login-page/login.html';
+    }, 2000);
   });
-  
