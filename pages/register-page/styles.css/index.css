@@ -1,6 +1,7 @@
 .bg-img {
   background-image: url(../../../images/signup-bg.jpg);
   height: 50vh;
+  background-size: cover;
 }
 .header {
   background-color: #76a713;

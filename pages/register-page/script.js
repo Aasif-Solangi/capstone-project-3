@@ -2,9 +2,9 @@ document.getElementById('accountForm').addEventListener('submit', function(e) {
     e.preventDefault();
   
    
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    var confirmPassword = document.getElementById('confirmPassword').value;
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    let confirmPassword = document.getElementById('confirmPassword').value;
   
   
     if (password !== confirmPassword) {
