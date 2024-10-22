@@ -184,15 +184,14 @@
               </div>
 
               <button class="btn border-0 fs-6 fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <div class="position-relative me-3">
-                <a class="nav-link" href="#">
-                  <iconify-icon
-                    class="icon"
-                    icon="bytesize:cart"></iconify-icon>
-                      <span id="cartQuantityBadge"
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                <a id="" class="nav-link" href="#">
+                  <iconify-icon class="icon"icon="bytesize:cart"></iconify-icon>
+                    <span id="cartQuantityBadge"class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
                 </a>
               </div> 
             </button>
+
+
               <!-- Search Icon -->
               <div>
                 <a class="nav-link" href="#">
@@ -456,7 +455,6 @@
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Fresh Orange" 
               data-price="12.00 - 65.00"  
-              data-made="Betterfoods" 
               data-img="./images/orange.png">
               <span class="fw-bold py-2 px-4">Select</span>
             </button>
@@ -477,7 +475,6 @@
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Red Apple Envy" 
               data-price="24.00 18.00"  
-              data-made="Betterfoods" 
               data-img="./images/apple.png">
               <span class="fw-bold py-2 px-4">Add to cart</span>
             </button>
@@ -495,7 +492,6 @@
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Green Bow" 
               data-price="4.00"  
-              
               data-img="./images/couliflower.png">
               <span class="fw-bold py-2 px-4">Add to cart</span>
             </button>
@@ -512,8 +508,7 @@
               <button 
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Organic Lemon" 
-              data-price="12.00"  
-              data-made="Betterfoods" 
+              data-price="12.00"   
               data-img="./images/lemon.png">
               <span class="fw-bold py-2 px-4">Add to cart</span>
             </button>
@@ -534,7 +529,6 @@
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Organic Carrot" 
               data-price="12.00 8.0"  
-              data-made="Betterfoods" 
               data-img="./images/carrots.png">
               <span class="fw-bold py-2 px-4">Add to cart</span>
             </button>
@@ -555,7 +549,6 @@
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Organic Cabbage" 
               data-price="30.00"  
-              data-made="Betterfoods" 
               data-img="./images/cabagge.png">
               <span class="fw-bold py-2 px-4">Add to cart</span>
             </button>
@@ -573,7 +566,6 @@
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Organic Potato" 
               data-price="4.00"  
-              data-made="Betterfoods" 
               data-img="./images/potatos.png">
               <span class="fw-bold py-2 px-4">Select</span>
             </button>
@@ -593,8 +585,7 @@
               <button 
               class="btn text-white fw-bold px-4 add-to-cart"
               data-name="Organic Peas" 
-              data-price="10.00 6.00"  
-              data-made="Betterfoods" 
+              data-price="10.00 6.00"   
               data-img="./images/peas.png">
               <span class="fw-bold py-2 px-4">Add to cart</span>
             </button>
@@ -940,7 +931,7 @@
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
       aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
+          <h5 class="offcanvas-title fw-bold" id="offcanvasRightLabel">Purchase Cart</h5>
           <button type="button" class="btn-close btn border-0 fs-5 fw-bold text-white" data-bs-dismiss="offcanvas" aria-label="Close">Add to Cart</button>
       </div>
       <div class="offcanvas-body" id="cartItems">

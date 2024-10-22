@@ -3,23 +3,23 @@ let totalPrice = 0;
 
 function updateCartDisplay() {
     const cartItemsDiv = document.getElementById('cartItems');
-    cartItemsDiv.innerHTML = ''; // Clear the cart display
+    cartItemsDiv.innerHTML = ''; 
 
     if (cart.length === 0) {
         cartItemsDiv.innerHTML = '<p>Your cart is empty.</p>';
-        document.getElementById('totalPrices').innerText = '$0.00'; // Clear total price
+        document.getElementById('totalPrices').innerText = '$0.00';
         return;
     }
 
     cart.forEach((item, index) => {
         cartItemsDiv.innerHTML += `
-            <div class="card mb-3 p-3 shadow-sm">
+            <div class="card mb-3 p-4 shadow-sm">
                 <div class="d-flex">
                     <img src="${item.img}" alt="${item.name}" style="width: 90px; height: 90px; object-fit: cover;" class="me-3 rounded">
-                    <div class="flex-grow-1">
+                    <div class="">
                         <h5 class="mb-1">${item.name}</h5>
                         <p class="text-muted mb-0">$${item.price} x ${item.quantity}</p>
-                        <button class="btn btn-sm btn-danger mt-2" onclick="removeItem(${index})">Remove</button>
+                        <button class="btn btn-sm btn-success mt-4" onclick="removeItem(${index})">Remove</button>
                     </div>
                     <div class="d-flex align-items-center">
                         <button class="btn btn-sm btn-outline-danger me-2" onclick="updateQuantity(${index}, -1)">-</button>
@@ -68,7 +68,6 @@ function updateQuantity(index, change) {
     updateCartDisplay(); 
 }
 
-
 function removeItem(index) {
     cart.splice(index, 1);
     updateCartDisplay();    
@@ -86,7 +85,6 @@ function updateTotalPrice() {
     const totalPricesFooter = document.getElementById('totalPrices');
     const totalPrice = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0).toFixed(2);
 
-    
     totalPriceElement.innerText = `$${totalPrice}`;
     totalPricesFooter.innerText = `$${totalPrice}`;
 }

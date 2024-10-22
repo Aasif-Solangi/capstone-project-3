@@ -1,11 +1,11 @@
 .header {
   background-color: #76a713;
 }
-body{
+body {
   overflow-x: hidden;
 }
 /* bg-footer */
-.bg-mailchimp{
+.bg-mailchimp {
   background-image: url(../../../images/bg-mailchimp.jpg);
   border-radius: 100px;
 }
@@ -23,7 +23,3 @@ body{
 ::placeholder {
   color: #fff;
 }
-
-
-
-

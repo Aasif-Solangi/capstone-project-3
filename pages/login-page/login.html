@@ -20,36 +20,68 @@
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
   </head>
 
-
   <header class="bg-white py-2 d-none d-md-block">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-6 col-sm-12 text-md-start text-center">
-          <span class="fw-bold text-black">Welcome to our Organic store Organico!</span>
+          <span class="fw-bold text-black"
+            >Welcome to our Organic store Organico!</span
+          >
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 text-md-end text-center">
           <div class="d-inline-flex align-items-center">
             <!-- Language Dropdown -->
             <div class="dropdown me-2">
-              <button class="btn border-0 dropdown-toggle fs-6 fw-bold" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="img-fluid rounded-5 " src="../../images/flag-en.png" alt="UK Flag" width="20"> English
+              <button
+                class="btn border-0 dropdown-toggle fs-6 fw-bold"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  class="img-fluid rounded-5"
+                  src="../../images/flag-en.png"
+                  alt="UK Flag"
+                  width="20"
+                />
+                English
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item fs-6 fw-bold" href="#">French</a></li>
-                <li><a class="dropdown-item fs-6 fw-bold" href="#">Spanish</a></li>
+                <li>
+                  <a class="dropdown-item fs-6 fw-bold" href="#">French</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fs-6 fw-bold" href="#">Spanish</a>
+                </li>
               </ul>
             </div>
 
             <!-- Wishlist -->
-            <a href="#" class="btn btn-link text-decoration-none me-2 text-black fs-6 fw-bold">
-              <iconify-icon icon="ph:heart-fill" class="text-success"></iconify-icon> My Wishlist
+            <a
+              href="#"
+              class="btn btn-link text-decoration-none me-2 text-black fs-6 fw-bold"
+            >
+              <iconify-icon
+                icon="ph:heart-fill"
+                class="text-success"
+              ></iconify-icon>
+              My Wishlist
             </a>
 
             <!-- Sign In -->
-            <a href="../login-page/login.html" class="btn btn-link text-decoration-none me-2 text-black fs-6 fw-bold">Sign In</a>
+            <a
+              href="../login-page/login.html"
+              class="btn btn-link text-decoration-none me-2 text-black fs-6 fw-bold"
+              >Sign In</a
+            >
 
             <!-- Sign Up -->
-            <a href="../register-page/register.html" class="btn border-0 fs-6 fw-bold">Sign Up</a>
+            <a
+              href="../register-page/register.html"
+              class="btn border-0 fs-6 fw-bold"
+              >Sign Up</a
+            >
           </div>
         </div>
       </div>
@@ -208,186 +240,273 @@
       </div>
     </nav>
 
-   
-  <div class="bg-img img-fluid d-flex justify-content-center align-items-center flex-column text-center bg-image"
-  style="background-image: url('../../../images/signup-bg.jpg'); height: 50vh; background-size: cover; background-position: center;">
-  <div class="text-white fs-1 fw-bold">Sign in</div>
-  <div class="text-white fs-6 mt-2">
-    <span class="fw-bold me-2">Home </span>
-    <span>
-      <iconify-icon
-        class="text-success"
-        icon="vaadin:angle-double-right"
-      ></iconify-icon>
-    </span>
-    <span class="fw-bold ms-2">Sign in</span>
-  </div>
-</div>
-
+    <div
+      class="bg-img img-fluid d-flex justify-content-center align-items-center flex-column text-center bg-image" style=" background-image: url('../../../images/signup-bg.jpg'); height: 50vh; background-size: cover; background-position: center;">
+      <div class="text-white fs-1 fw-bold">Sign in</div>
+      <div class="text-white fs-6 mt-2">
+        <span class="fw-bold me-2">Home </span>
+        <span>
+          <iconify-icon
+            class="text-success"
+            icon="vaadin:angle-double-right"
+          ></iconify-icon>
+        </span>
+        <span class="fw-bold ms-2">Sign in</span>
+      </div>
+    </div>
 
     <div class="container mt-5 w-100 my-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10 col-sm-12">
-                <div class="card p-4">
-                    <h2 class="fs-3 fw-semibold text-center">Log in to Your Account</h2>
-                    <form class="mt-4 accountForm">
-                      <div class="input-group mb-3">
-                          <span class="input-group-text bg-white">
-                              <span class="iconify text-success" data-icon="mdi:user"></span>
-                          </span>
-                          <input type="text" id="userName" class="form-control border-start-0 shadow-none" placeholder="Username" required />
-                      </div>
-                  
-                      <div class="input-group mb-3">
-                          <span class="input-group-text bg-white border-end-0">
-                              <span class="iconify text-success" data-icon="mdi:lock"></span>
-                          </span>
-                          <input type="password" id="userPassword" class="form-control border-start-0 shadow-none" placeholder="Password" required />
-                      </div>
-                  
-                      <div class="d-grid">
-                          <button type="submit" class="btn btn-success py-2 rounded-5">Login</button>
-                      </div>
-                      <div class="text-center mt-3">
-                          <small>
-                              <a href="" class="text-decoration-none text-black">New to Organico?</a>
-                              <a class="text-success btn-success text-decoration-none" href="../register-page/register.html">Sign up</a>
-                          </small>
-                      </div>
-                      <div class="text-center mt-5">
-                          <span><u class="text-black">Forgot your password?</u></span>
-                      </div>
-                  </form>
-                  
-                </div>
-            </div>
-        </div>
-    </div>
-    
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-10 col-sm-12">
+          <div class="card p-4">
+            <h2 class="fs-3 fw-semibold text-center">Log in to Your Account</h2>
+            <form class="mt-4 accountForm">
+              <div class="input-group mb-3">
+                <span class="input-group-text bg-white">
+                  <span
+                    class="iconify text-success"
+                    data-icon="mdi:user"
+                  ></span>
+                </span>
+                <input
+                  type="text"
+                  id="userName"
+                  class="form-control border-start-0 shadow-none"
+                  placeholder="Username"
+                  required
+                />
+              </div>
 
+              <div class="input-group mb-3">
+                <span class="input-group-text bg-white border-end-0">
+                  <span
+                    class="iconify text-success"
+                    data-icon="mdi:lock"
+                  ></span>
+                </span>
+                <input
+                  type="password"
+                  id="userPassword"
+                  class="form-control border-start-0 shadow-none"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+
+              <div class="d-grid">
+                <button type="submit" class="btn btn-success py-2 rounded-5">
+                  Login
+                </button>
+              </div>
+              <div class="text-center mt-3">
+                <small>
+                  <a href="" class="text-decoration-none text-black"
+                    >New to Organico?</a
+                  >
+                  <a
+                    class="text-success btn-success text-decoration-none"
+                    href="../register-page/register.html"
+                    >Sign up</a
+                  >
+                </small>
+              </div>
+              <div class="text-center mt-5">
+                <span><u class="text-black">Forgot your password?</u></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Modal -->
-<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div class="text-center text-black fw-bold fs-5">
-          Your account has been logged in successfully!
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- footer section 1 -->
-
-<div class="bg-footer-2 position-relative overflow-hidden">
-  <img src="../../images/bg-footer-top.png" alt="Background" class="img-fluid position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 1;"/>
-  <div class="bg-footer position-relative z-1 container ">
-    <div class="bg-mailchimp d-none d-md-block">
-      <div class=" d-flex mt-5">
-          <div>
-              <img class="img-fluid" src="../../images/flower.png" alt="" />
-          </div>
-          <div class="py-3 ms-5 mt-4">
-              <h3 class="text-center text-white fs-3 fw-bolder mt-3">
-                  Subscribe to our Newsletter:
-              </h3> 
-              <div class="d-flex align-content-center justify-content-center">
-                  <div class="d-flex">
-                      <div class="input-text">
-                          <input
-                              class="input"
-                              type="email"
-                              placeholder="your mail address..."
-                          />
-                      </div>
-                      <div>
-                          <button
-                              class="border-0 ms-3 btn btn-success rounded-5 text-white px-5 fs-md-6 fw-bold"
-                          >
-                              Subscribe
-                          </button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>  
-    </div>
-
-
-
-
-      <!-- footer section 2 -->
-      <div class="row mt-5 text-center text-md-start">
-          <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center">
-            <div class="footer-brand mt-5 text-center">
-                <a href="../../index.html">
-                    <img class="w-50 mb-2 mt-4" src="../../images/logo-footer.png" alt="" />
-                </a>
+    <div
+      class="modal fade"
+      id="successModal"
+      tabindex="-1"
+      aria-labelledby="successModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="text-center text-black fw-bold fs-5">
+              Your account has been logged in successfully!
             </div>
-            <p class=" text-white mt-3 fs-6 fw-normal text-center">
-                We work with a passion of taking challenges and creating new ones in the advertising sector.
-            </p>
-            <div class="top-icons d-flex mt-4 align-items-center">
-              <a class="nav-link active" aria-current="page" href="#">
-                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="flowbite:facebook-solid"></iconify-icon>
-              </a>
-              <a class="nav-link ms-4" href="#">
-                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="mingcute:twitter-fill"></iconify-icon>
-              </a>
-              <a class="nav-link ms-4" href="#">
-                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="ri:linkedin-fill"></iconify-icon>
-              </a>
-              <a class="nav-link ms-4" href="#">
-                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="lets-icons:world-light"></iconify-icon>
-              </a>
-          </div>          
+          </div>
         </div>
-        
-
-          <!-- Links Section -->
-          <div class="col-lg-2 col-md-6 mb-4 mt-5">
-              <h5 class="text-white fs-4 fw-bold mt-5">Links</h5>
-              <ul class="list-unstyled">
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Home</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Services</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">About Us</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Testimonials</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">News</a></li>
-              </ul>
-          </div>
-
-          <!-- Official Info -->
-          <div class="col-lg-3 col-md-6 mb-4 mt-5">
-              <h5 class="text-white fs-4 fw-bold mt-5">Official Info</h5>
-              <p class="text-white text-decoration-none fs-6 fw-normal">
-                  <i class="bi bi-geo-alt-fill text-white me-2"></i>30 Commercial Road, Fratton, Australia
-              </p>
-              <p class="text-white text-decoration-none fs-6 fw-normal">
-                  <i class="bi bi-telephone-fill text-white me-2"></i>1-888-452-1505
-              </p>
-              <p class="mb-1 text-white text-decoration-none fs-6 fw-normal">Open Hours:</p>
-              <p class="text-white text-decoration-none fs-6 fw-normal">Mon - Sat: 8 am - 5 pm</p>
-              <p class="text-white text-decoration-none fs-6 fw-normal">Sunday: CLOSED</p>
-          </div>
-
-          <!-- Instagram Section -->
-          <div class="col-lg-3 col-md-6 mb-4 mt-5">
-              <h5 class="text-white fs-4 fw-bold mt-5">Instagram</h5>
-              <div class="d-flex flex-wrap justify-content-center">
-                  <img src="../../images/ftr-img-1-1.png" class="img-fluid rounded m-1" alt="Insta1" />
-              </div>
-          </div>
-          <p class="mb-0 fs-5 fw-bold text-white text-center mt-2">
-              &copy; 2024 Organio - CaseThemes. All rights reserved.
-          </p>
       </div>
-  </div>
-</div>
+    </div>
 
+    <!-- footer section 1 -->
 
+    <div class="bg-footer-2 position-relative overflow-hidden">
+      <img
+        src="../../images/bg-footer-top.png"
+        alt="Background"
+        class="img-fluid position-absolute top-0 start-0 w-100 h-100"
+        style="object-fit: cover; z-index: 1"
+      />
+      <div class="bg-footer position-relative z-1 container">
+        <div class="bg-mailchimp d-none d-md-block">
+          <div class="d-flex mt-5">
+            <div>
+              <img class="img-fluid" src="../../images/flower.png" alt="" />
+            </div>
+            <div class="py-3 ms-5 mt-4">
+              <h3 class="text-center text-white fs-3 fw-bolder mt-3">
+                Subscribe to our Newsletter:
+              </h3>
+              <div class="d-flex align-content-center justify-content-center">
+                <div class="d-flex">
+                  <div class="input-text">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="your mail address..."
+                    />
+                  </div>
+                  <div>
+                    <button
+                      class="border-0 ms-3 btn btn-success rounded-5 text-white px-5 fs-md-6 fw-bold"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer section 2 -->
+
+        <div class="row mt-5 text-center">
+          <div
+            class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center"
+          >
+            <div class="footer-brand mt-5 text-center">
+              <a href="../../index.html">
+                <img
+                  class="w-50 mb-2 mt-4"
+                  src="../../images/logo-footer.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <p class="text-white mt-3 fs-6 fw-normal text-center">
+              We work with a passion of taking challenges and creating new ones
+              in the advertising sector.
+            </p>
+            <div
+              class="top-icons d-flex mt-4 align-items-center justify-content-center"
+            >
+              <a class="nav-link active" aria-current="page" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5 text-black bg-white"
+                  icon="flowbite:facebook-solid"
+                ></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5 text-black bg-white"
+                  icon="mingcute:twitter-fill"
+                ></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5 text-black bg-white"
+                  icon="ri:linkedin-fill"
+                ></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5 text-black bg-white"
+                  icon="lets-icons:world-light"
+                ></iconify-icon>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mt-5 d-flex flex-column align-items-center"
+          >
+            <h5 class="text-white fs-4 fw-bold mt-5 text-center">Links</h5>
+            <ul class="list-unstyled text-center">
+              <li>
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-normal"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-normal"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-normal"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-normal"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fs-6 fw-normal"
+                  >News</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mt-5">
+            <h5 class="text-white fs-4 fw-bold mt-5">Official Info</h5>
+            <p class="text-white fs-6 fw-normal">
+              <iconify-icon icon="mdi:location"></iconify-icon>
+              <i class="bi bi-geo-alt-fill text-white me-2"></i>30 Commercial
+              Road, <br />
+              Fratton, Australia
+            </p>
+            <p class="text-white fs-6 fw-normal">
+              <iconify-icon icon="ic:sharp-call"></iconify-icon>
+              <i class="bi bi-telephone-fill text-white me-2"></i>1-888-452-1505
+            </p>
+            <p class="mb-1 fs-6 fw-normal text-success">Open Hours:</p>
+            <p class="text-white fs-6 fw-normal">Mon - Sat: 8 am - 5 pm</p>
+            <p class="text-white fs-6 fw-normal">Sunday: CLOSED</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mt-5">
+            <h5 class="text-white fs-4 fw-bold mt-5">Instagram</h5>
+            <div class="d-flex flex-wrap justify-content-center">
+              <img
+                src="../../images/ftr-img-1-1.png"
+                class="img-fluid rounded m-1 mt-3"
+                alt="Insta1"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 text-center mb-4">
+            <p class="mb-0 fs-5 fw-bold text-white">
+              &copy; 2024 Organio - CaseThemes. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- offcanvas -->
     <div
@@ -409,7 +528,6 @@
       </div>
       <div class="offcanvas-body">...</div>
     </div>
-
 
     <script src="./script.js"></script>
   </body>
