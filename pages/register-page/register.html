@@ -210,21 +210,24 @@
     </nav>
 
 
-    
+
     <div
-      class="bg-img d-flex justify-content-center  align-items-center flex-column text-center object-fit-md-contain object-fit-lg-contain ">
-      <div class="text-white fs-1 fw-bold">Sign up</div>
-      <div class="text-white fs-6 mt-2">
-        <span class="fw-bold me-2">Home </span>
-        <span>
-          <iconify-icon
-            class="text-success"
-            icon="vaadin:angle-double-right"
-          ></iconify-icon>
-        </span>
-        <span class="fw-bold ms-2">Sign up</span>
-      </div>
-    </div>
+  class="bg-img img-fluid d-flex justify-content-center align-items-center flex-column text-center bg-image"
+  style="background-image: url('../../../images/signup-bg.jpg'); height: 50vh; background-size: cover; background-position: center;">
+  <div class="text-white fs-1 fw-bold">Sign up</div>
+  <div class="text-white fs-6 mt-2">
+    <span class="fw-bold me-2">Home </span>
+    <span>
+      <iconify-icon
+        class="text-success"
+        icon="vaadin:angle-double-right"
+      ></iconify-icon>
+    </span>
+    <span class="fw-bold ms-2">Sign up</span>
+  </div>
+</div>
+
+
 
 
 
@@ -292,57 +295,56 @@
 
 
 
-
    
-    <!-- footer -->
+    <!-- footer section 1 -->
 
-
-<div class="bg-footer-2 position-relative overflow-hidden">
-  <img src="../../images/bg-footer-top.png" alt="Background" class="img-fluid position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 1;"/>
-  <div class="bg-footer position-relative z-1 container ">
-    <div class="bg-mailchimp d-none d-md-block">
-      <div class=" d-flex mt-5">
-          <div>
-              <img class="img-fluid" src="../../images/flower.png" alt="" />
-          </div>
-          <div class="py-3 ms-5 mt-4">
-              <h3 class="text-center text-white fs-3 fw-bolder mt-3">
-                  Subscribe to our Newsletter:
-              </h3> 
-              <div class="d-flex align-content-center justify-content-center">
-                  <div class="d-flex">
-                      <div class="input-text">
-                          <input
-                              class="input"
-                              type="email"
-                              placeholder="your mail address..."
-                          />
-                      </div>
-                      <div>
-                          <button
-                              class="border-0 ms-3 btn btn-success rounded-5 text-white px-5 fs-md-6 fw-bold"
-                          >
-                              Subscribe
-                          </button>
+    <div class="bg-footer-2 position-relative overflow-hidden">
+      <img src="../../images/bg-footer-top.png" alt="Background" class="img-fluid position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 1;"/>
+      <div class="bg-footer position-relative z-1 container ">
+        <div class="bg-mailchimp d-none d-md-block">
+          <div class=" d-flex mt-5">
+              <div>
+                  <img class="img-fluid" src="../../images/flower.png" alt="" />
+              </div>
+              <div class="py-3 ms-5 mt-4">
+                  <h3 class="text-center text-white fs-3 fw-bolder mt-3">
+                      Subscribe to our Newsletter:
+                  </h3> 
+                  <div class="d-flex align-content-center justify-content-center">
+                      <div class="d-flex">
+                          <div class="input-text">
+                              <input
+                                  class="input"
+                                  type="email"
+                                  placeholder="your mail address..."
+                              />
+                          </div>
+                          <div>
+                              <button
+                                  class="border-0 ms-3 btn btn-success rounded-5 text-white px-5 fs-md-6 fw-bold"
+                              >
+                                  Subscribe
+                              </button>
+                          </div>
                       </div>
                   </div>
               </div>
-          </div>
-      </div>  
-    </div>
-
-      <!-- footer content -->
-      <div class="row mt-5 text-center text-md-start">
-          <div class="col-lg-3 col-md-6 mb-4">
-              <div class="footer-brand mt-5">
-                  <a href="">
-                      <img class="w-50 mb-2" src="../../images/logo-footer.png" alt=""/>
-                  </a>
-              </div>
-              <p class="text-white mt-3 fs-6 fw-normal">
-                  We work with a passion of taking challenges and creating new ones in the advertising sector.
-              </p>
-              <div class="top-icons d-flex mt-4 align-content-center">
+          </div>  
+        </div>
+    
+    
+          <!-- footer section 2 -->
+          <div class="row mt-5 text-center text-md-start">
+              <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center">
+                <div class="footer-brand mt-5 text-center">
+                    <a href="../../index.html">
+                        <img class="w-50 mb-2 mt-4" src="../../images/logo-footer.png" alt="" />
+                    </a>
+                </div>
+                <p class=" text-white mt-3 fs-6 fw-normal text-center">
+                    We work with a passion of taking challenges and creating new ones in the advertising sector.
+                </p>
+                <div class="top-icons d-flex mt-4 align-items-center">
                   <a class="nav-link active" aria-current="page" href="#">
                       <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="flowbite:facebook-solid"></iconify-icon>
                   </a>
@@ -355,50 +357,72 @@
                   <a class="nav-link ms-4" href="#">
                       <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="lets-icons:world-light"></iconify-icon>
                   </a>
+              </div>          
+            </div>
+            
+    
+              <!-- Links Section -->
+              <div class="col-lg-2 col-md-6 mb-4 mt-5">
+                  <h5 class="text-white fs-4 fw-bold mt-5">Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Home</a></li>
+                      <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Services</a></li>
+                      <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">About Us</a></li>
+                      <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Testimonials</a></li>
+                      <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">News</a></li>
+                  </ul>
               </div>
-          </div>
-
-          <!-- Links Section -->
-          <div class="col-lg-2 col-md-6 mb-4 mt-5 ">
-              <h5 class="text-white fs-4 fw-bold">Links</h5>
-              <ul class="list-unstyled">
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Home</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Services</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">About Us</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Testimonials</a></li>
-                  <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">News</a></li>
-              </ul>
-          </div>
-
-          <!-- Official Info -->
-          <div class="col-lg-3 col-md-6 mb-4 mt-5">
-              <h5 class="text-white fs-4 fw-bold">Official Info</h5>
-              <p class="text-white text-decoration-none fs-6 fw-normal">
-                  <i class="bi bi-geo-alt-fill text-white me-2"></i>30 Commercial Road, Fratton, Australia
-              </p>
-              <p class="text-white text-decoration-none fs-6 fw-normal">
-                  <i class="bi bi-telephone-fill text-white me-2"></i>1-888-452-1505
-              </p>
-              <p class="mb-1 text-white text-decoration-none fs-6 fw-normal">Open Hours:</p>
-              <p class="text-white text-decoration-none fs-6 fw-normal">Mon - Sat: 8 am - 5 pm</p>
-              <p class="text-white text-decoration-none fs-6 fw-normal">Sunday: CLOSED</p>
-          </div>
-
-          <!-- Instagram Section -->
-          <div class="col-lg-3 col-md-6 mb-4 mt-5">
-              <h5 class="text-white fs-4 fw-bold">Instagram</h5>
-              <div class="d-flex flex-wrap ustify-content-center">
-                  <img src="../../images/ftr-img-1-1.png" class="img-fluid rounded m-1" alt="Insta1" />
+    
+              <!-- Official Info -->
+              <div class="col-lg-3 col-md-6 mb-4 mt-5">
+                  <h5 class="text-white fs-4 fw-bold mt-5">Official Info</h5>
+                  <p class="text-white text-decoration-none fs-6 fw-normal">
+                      <i class="bi bi-geo-alt-fill text-white me-2"></i>30 Commercial Road, Fratton, Australia
+                  </p>
+                  <p class="text-white text-decoration-none fs-6 fw-normal">
+                      <i class="bi bi-telephone-fill text-white me-2"></i>1-888-452-1505
+                  </p>
+                  <p class="mb-1 text-white text-decoration-none fs-6 fw-normal">Open Hours:</p>
+                  <p class="text-white text-decoration-none fs-6 fw-normal">Mon - Sat: 8 am - 5 pm</p>
+                  <p class="text-white text-decoration-none fs-6 fw-normal">Sunday: CLOSED</p>
               </div>
+    
+              <!-- Instagram Section -->
+              <div class="col-lg-3 col-md-6 mb-4 mt-5">
+                  <h5 class="text-white fs-4 fw-bold mt-5">Instagram</h5>
+                  <div class="d-flex flex-wrap justify-content-center">
+                      <img src="../../images/ftr-img-1-1.png" class="img-fluid rounded m-1" alt="Insta1" />
+                  </div>
+              </div>
+              <p class="mb-0 fs-5 fw-bold text-white text-center mt-2">
+                  &copy; 2024 Organio - CaseThemes. All rights reserved.
+              </p>
           </div>
-          <p class="mb-0 fs-5 fw-bold text-white text-center mt-2">
-              &copy; 2024 Organio - CaseThemes. All rights reserved.
-          </p>
       </div>
-  </div>
-</div>
+    </div>
+    
 
 
+    <!-- offcanvas -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <span class="offcanvas-title fw-bold fs-3" id="offcanvasRightLabel"
+          >Cart</span
+        >
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">...</div>
+    </div>
 
     <script src="./script.js"></script>
   </body>

@@ -208,28 +208,29 @@
       </div>
     </nav>
 
-    <div
-      class="bg-img d-flex justify-content-center align-items-center flex-column text-center"
-    >
-      <div class="text-white fs-1 fw-bold">Sign in</div>
-      <div class="text-white fs-6 mt-2">
-        <span class="fw-bold me-2">Home </span>
-        <span>
-          <iconify-icon
-            class="text-success"
-            icon="vaadin:angle-double-right"
-          ></iconify-icon>
-        </span>
-        <span class="fw-bold ms-2">Sign in</span>
-      </div>
-    </div>
+   
+  <div class="bg-img img-fluid d-flex justify-content-center align-items-center flex-column text-center bg-image"
+  style="background-image: url('../../../images/signup-bg.jpg'); height: 50vh; background-size: cover; background-position: center;">
+  <div class="text-white fs-1 fw-bold">Sign in</div>
+  <div class="text-white fs-6 mt-2">
+    <span class="fw-bold me-2">Home </span>
+    <span>
+      <iconify-icon
+        class="text-success"
+        icon="vaadin:angle-double-right"
+      ></iconify-icon>
+    </span>
+    <span class="fw-bold ms-2">Sign in</span>
+  </div>
+</div>
+
 
     <div class="container mt-5 w-100 my-5">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10 col-sm-12">
                 <div class="card p-4">
                     <h2 class="fs-3 fw-semibold text-center">Log in to Your Account</h2>
-                    <form class="mt-4 userForm">
+                    <form class="mt-4 accountForm">
                       <div class="input-group mb-3">
                           <span class="input-group-text bg-white">
                               <span class="iconify text-success" data-icon="mdi:user"></span>
@@ -263,31 +264,23 @@
         </div>
     </div>
     
-  
 
 
-<!-- Modal -->
-
-    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="text-center text-black fw-bold fs-5">
-              Your account has been Login successfully!
-            </div>
-          </div>
+    <!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="text-center text-black fw-bold fs-5">
+          Your account has been logged in successfully!
         </div>
       </div>
     </div>
-
-  
-
-
-<!-- footer -->
+  </div>
+</div>
 
 
-
-
+<!-- footer section 1 -->
 
 <div class="bg-footer-2 position-relative overflow-hidden">
   <img src="../../images/bg-footer-top.png" alt="Background" class="img-fluid position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 1;"/>
@@ -323,36 +316,40 @@
       </div>  
     </div>
 
-      <!-- footer content -->
+
+
+
+      <!-- footer section 2 -->
       <div class="row mt-5 text-center text-md-start">
-          <div class="col-lg-3 col-md-6 mb-4">
-              <div class="footer-brand mt-5">
-                  <a href="">
-                      <img class="w-50 mb-2" src="../../images/logo-footer.png" alt=""/>
-                  </a>
-              </div>
-              <p class="text-white mt-3 fs-6 fw-normal">
-                  We work with a passion of taking challenges and creating new ones in the advertising sector.
-              </p>
-              <div class="top-icons d-flex mt-4 align-content-center">
-                  <a class="nav-link active" aria-current="page" href="#">
-                      <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="flowbite:facebook-solid"></iconify-icon>
-                  </a>
-                  <a class="nav-link ms-4" href="#">
-                      <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="mingcute:twitter-fill"></iconify-icon>
-                  </a>
-                  <a class="nav-link ms-4" href="#">
-                      <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="ri:linkedin-fill"></iconify-icon>
-                  </a>
-                  <a class="nav-link ms-4" href="#">
-                      <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="lets-icons:world-light"></iconify-icon>
-                  </a>
-              </div>
-          </div>
+          <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center">
+            <div class="footer-brand mt-5 text-center">
+                <a href="../../index.html">
+                    <img class="w-50 mb-2 mt-4" src="../../images/logo-footer.png" alt="" />
+                </a>
+            </div>
+            <p class=" text-white mt-3 fs-6 fw-normal text-center">
+                We work with a passion of taking challenges and creating new ones in the advertising sector.
+            </p>
+            <div class="top-icons d-flex mt-4 align-items-center">
+              <a class="nav-link active" aria-current="page" href="#">
+                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="flowbite:facebook-solid"></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="mingcute:twitter-fill"></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="ri:linkedin-fill"></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                  <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="lets-icons:world-light"></iconify-icon>
+              </a>
+          </div>          
+        </div>
+        
 
           <!-- Links Section -->
-          <div class="col-lg-2 col-md-6 mb-4 mt-5 ">
-              <h5 class="text-white fs-4 fw-bold">Links</h5>
+          <div class="col-lg-2 col-md-6 mb-4 mt-5">
+              <h5 class="text-white fs-4 fw-bold mt-5">Links</h5>
               <ul class="list-unstyled">
                   <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Home</a></li>
                   <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal">Services</a></li>
@@ -364,7 +361,7 @@
 
           <!-- Official Info -->
           <div class="col-lg-3 col-md-6 mb-4 mt-5">
-              <h5 class="text-white fs-4 fw-bold">Official Info</h5>
+              <h5 class="text-white fs-4 fw-bold mt-5">Official Info</h5>
               <p class="text-white text-decoration-none fs-6 fw-normal">
                   <i class="bi bi-geo-alt-fill text-white me-2"></i>30 Commercial Road, Fratton, Australia
               </p>
@@ -378,8 +375,8 @@
 
           <!-- Instagram Section -->
           <div class="col-lg-3 col-md-6 mb-4 mt-5">
-              <h5 class="text-white fs-4 fw-bold">Instagram</h5>
-              <div class="d-flex flex-wrap ustify-content-center">
+              <h5 class="text-white fs-4 fw-bold mt-5">Instagram</h5>
+              <div class="d-flex flex-wrap justify-content-center">
                   <img src="../../images/ftr-img-1-1.png" class="img-fluid rounded m-1" alt="Insta1" />
               </div>
           </div>
@@ -413,6 +410,7 @@
       <div class="offcanvas-body">...</div>
     </div>
 
-    <script src="/pages/login-page/script.js"></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>

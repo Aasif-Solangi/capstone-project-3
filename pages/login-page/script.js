@@ -1,17 +1,22 @@
-document.getElementById('accountForm').addEventListener('submit', function (event) {
-  event.preventDefault(); 
-
-  const { value: username } = document.getElementById('username');
-  const { value: password } = document.getElementById('password');
- 
-  if (username === password) {
+document.querySelector('.accountForm').addEventListener('submit', function (event) {
+    event.preventDefault(); 
+  
+    const username = document.getElementById('userName').value;
+    const password = document.getElementById('userPassword').value;
+  
+    if (username === 'Aasif Ali' && password === '1234') {
+     
       localStorage.setItem('username', username);
       localStorage.setItem('password', password);
   
-      alert('Account created successfully!');
+      const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+      successModal.show();
       
-      window.location.href = 'index.html';
-  } else {
-      alert('Passwords do not match!');
-    }
-});
+      setTimeout(() => {
+        window.location.href = '../../../index.html';
+      }, 2000);
+    } else {
+      alert('Username or password is incorrect!');
+    }
+  });
+  
