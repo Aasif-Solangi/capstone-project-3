@@ -73,7 +73,6 @@ function removeItem(index) {
     updateCartDisplay();    
 }
 
-
 function updateCartQuantityBadge() {
     const cartQuantityBadge = document.getElementById('cartQuantityBadge');
     const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
