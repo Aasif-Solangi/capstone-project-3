@@ -5,7 +5,6 @@ document.getElementById('accountForm').addEventListener('submit', function(e) {
   let email = document.getElementById('email').value;
   let password = document.getElementById('password').value;
   let confirmPassword = document.getElementById('confirmPassword').value;
-
  
   if (password !== confirmPassword) {
       alert('Passwords do not match!');
